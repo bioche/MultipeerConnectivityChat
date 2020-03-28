@@ -12,20 +12,9 @@
 		C04365641A626BA0000E0F15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04365621A626BA0000E0F15 /* Main.storyboard */; };
 		C04365661A626BA0000E0F15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C04365651A626BA0000E0F15 /* Images.xcassets */; };
 		C04365691A626BA0000E0F15 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C04365671A626BA0000E0F15 /* LaunchScreen.xib */; };
-		C04365751A626BA1000E0F15 /* MPCRevisitedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04365741A626BA1000E0F15 /* MPCRevisitedTests.swift */; };
 		C04365811A626D11000E0F15 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04365801A626D11000E0F15 /* ChatViewController.swift */; };
 		C04365831A627A8C000E0F15 /* MPCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04365821A627A8C000E0F15 /* MPCManager.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		C043656F1A626BA1000E0F15 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C04365511A626BA0000E0F15 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C04365581A626BA0000E0F15;
-			remoteInfo = MPCRevisited;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C04365591A626BA0000E0F15 /* MPCRevisited.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPCRevisited.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,22 +24,12 @@
 		C04365631A626BA0000E0F15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C04365651A626BA0000E0F15 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C04365681A626BA0000E0F15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		C043656E1A626BA1000E0F15 /* MPCRevisitedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPCRevisitedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C04365731A626BA1000E0F15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C04365741A626BA1000E0F15 /* MPCRevisitedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPCRevisitedTests.swift; sourceTree = "<group>"; };
 		C04365801A626D11000E0F15 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		C04365821A627A8C000E0F15 /* MPCManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPCManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C04365561A626BA0000E0F15 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C043656B1A626BA1000E0F15 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				C043655B1A626BA0000E0F15 /* MPCRevisited */,
-				C04365711A626BA1000E0F15 /* MPCRevisitedTests */,
 				C043655A1A626BA0000E0F15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				C04365591A626BA0000E0F15 /* MPCRevisited.app */,
-				C043656E1A626BA1000E0F15 /* MPCRevisitedTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,23 +78,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C04365711A626BA1000E0F15 /* MPCRevisitedTests */ = {
-			isa = PBXGroup;
-			children = (
-				C04365741A626BA1000E0F15 /* MPCRevisitedTests.swift */,
-				C04365721A626BA1000E0F15 /* Supporting Files */,
-			);
-			path = MPCRevisitedTests;
-			sourceTree = "<group>";
-		};
-		C04365721A626BA1000E0F15 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C04365731A626BA1000E0F15 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,24 +98,6 @@
 			productReference = C04365591A626BA0000E0F15 /* MPCRevisited.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C043656D1A626BA1000E0F15 /* MPCRevisitedTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C043657B1A626BA1000E0F15 /* Build configuration list for PBXNativeTarget "MPCRevisitedTests" */;
-			buildPhases = (
-				C043656A1A626BA1000E0F15 /* Sources */,
-				C043656B1A626BA1000E0F15 /* Frameworks */,
-				C043656C1A626BA1000E0F15 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C04365701A626BA1000E0F15 /* PBXTargetDependency */,
-			);
-			name = MPCRevisitedTests;
-			productName = MPCRevisitedTests;
-			productReference = C043656E1A626BA1000E0F15 /* MPCRevisitedTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +110,6 @@
 					C04365581A626BA0000E0F15 = {
 						CreatedOnToolsVersion = 6.1.1;
 						DevelopmentTeam = MLDJM8453C;
-					};
-					C043656D1A626BA1000E0F15 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = C04365581A626BA0000E0F15;
 					};
 				};
 			};
@@ -190,7 +128,6 @@
 			projectRoot = "";
 			targets = (
 				C04365581A626BA0000E0F15 /* MPCRevisited */,
-				C043656D1A626BA1000E0F15 /* MPCRevisitedTests */,
 			);
 		};
 /* End PBXProject section */
@@ -203,13 +140,6 @@
 				C04365641A626BA0000E0F15 /* Main.storyboard in Resources */,
 				C04365691A626BA0000E0F15 /* LaunchScreen.xib in Resources */,
 				C04365661A626BA0000E0F15 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C043656C1A626BA1000E0F15 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,23 +157,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C043656A1A626BA1000E0F15 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C04365751A626BA1000E0F15 /* MPCRevisitedTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C04365701A626BA1000E0F15 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C04365581A626BA0000E0F15 /* MPCRevisited */;
-			targetProxy = C043656F1A626BA1000E0F15 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C04365621A626BA0000E0F15 /* Main.storyboard */ = {
@@ -370,40 +284,6 @@
 			};
 			name = Release;
 		};
-		C043657C1A626BA1000E0F15 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MPCRevisitedTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MPCRevisited.app/MPCRevisited";
-			};
-			name = Debug;
-		};
-		C043657D1A626BA1000E0F15 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = MPCRevisitedTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MPCRevisited.app/MPCRevisited";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -421,15 +301,6 @@
 			buildConfigurations = (
 				C04365791A626BA1000E0F15 /* Debug */,
 				C043657A1A626BA1000E0F15 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C043657B1A626BA1000E0F15 /* Build configuration list for PBXNativeTarget "MPCRevisitedTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C043657C1A626BA1000E0F15 /* Debug */,
-				C043657D1A626BA1000E0F15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
